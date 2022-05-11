@@ -1,0 +1,13 @@
+{
+    "criteria" : {
+      "unlock" : {
+            "trigger" : "minecraft:recipe_unlocked",
+            "conditions" : {
+                "recipe" : "gomibako:gerbage_box_pattern"
+            }
+        }
+    },
+    "rewards" : {
+        "function" : "gomibako:craft/garbage_box_craft"
+    }
+}

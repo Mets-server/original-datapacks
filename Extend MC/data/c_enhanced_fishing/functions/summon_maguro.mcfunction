@@ -1,0 +1,1 @@
+summon salmon ~ ~ ~ {Passengers:[{id:"minecraft:armor_stand",ArmorItems:[{},{},{},{id:"minecraft:poisonous_potato",tag:{CustomModelData:1},Count:1}],Invisible:1b}]}

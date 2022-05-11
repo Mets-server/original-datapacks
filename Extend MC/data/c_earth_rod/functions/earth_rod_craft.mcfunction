@@ -1,0 +1,4 @@
+#大地の杖 クラフト
+tag @s add CC.succes
+summon item ~ ~ ~ {Motion:[0.0,0.2,0.0], Item: {id: "minecraft:carrot_on_a_stick", tag: {Earth_ROD: 1, Unbreakable: 1, Damage: 0, HideFlags: 6, CustomModelData: 334, display: {Name: '{"text":"大地の杖","color":"dark_green","italic":false}'}, AttributeModifiers: [{Slot: "mainhand", Operation: 0, UUID: [I; 964031368, -783611344, 8849473, 696521583], AttributeName: "generic.knockback_resistance", Amount: 128}, {Slot: "mainhand", Operation: 0, UUID: [I; 657223355, 802439670, -872785775, 677246839], AttributeName: "generic.movement_speed", Amount: -0.05d}, {Slot: "mainhand", Operation: 0, UUID: [I; -600205193, 937177436, 711145192, -769443228], AttributeName: "generic.attack_damage", Amount: 19}, {Slot: "mainhand", Operation: 0, UUID: [I; -819257637, -996123287, -626715608, -907783713], AttributeName: "generic.attack_speed", Amount: -3}]}, Count: 1b}, PickupDelay: 1s,}
+data merge block ~ ~-0.1 ~ {Items:[]}

@@ -1,0 +1,12 @@
+{
+    "values": [
+        "c_elytex:load",
+        "c_extend_mc:load",
+        "c_daizu_meat:load",
+        "c_custom_crafter:load",
+        "c_yaku:load",
+        "c_earth_rod:load",
+        "c_auto_machines:load",
+        "c_fire_sword:load"
+    ]
+}
