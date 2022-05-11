@@ -1,2 +1,5 @@
-# original-datapacks<br>
+# original-datapacks
+<br>
+<div>未実装の物から開発中の物まで様々なものがあります、<br>中には役立つものがあるかもね！</div>
+<br>
 <div>独自のデータパックがあります<br>自由に使用、改造しても問題ありません<br>※権利は放棄していません</div>
