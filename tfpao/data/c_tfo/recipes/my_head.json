@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "P"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_helmet"
+        },
+        "P": {
+            "item": "minecraft:pufferfish"
+        }
+    },
+    "result": {
+        "item": "minecraft:player_head",
+        "count": 1
+    }
+}

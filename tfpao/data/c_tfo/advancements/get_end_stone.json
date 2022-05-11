@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "title": "異次元の土壌",
+        "description": "エンドストーンを入手する",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "minecraft:end/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "items": [
+                        "minecraft:end_stone"
+                    ]
+                }]
+            }
+        }
+    }
+}

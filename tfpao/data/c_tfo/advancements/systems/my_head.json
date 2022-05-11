@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "c_tfo:my_head"
+            }
+        }
+    },
+    "rewards": {
+        "function": "c_tfo:systems/get_my_head"
+    }
+}

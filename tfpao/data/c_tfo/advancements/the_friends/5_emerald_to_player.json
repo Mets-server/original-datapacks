@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": "おこづかい",
+    "description": "5エメラルドをプレイヤーにあげる",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "c_tfo:the_friends/poisonous_potato_to_player",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "item": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "count": 5
+        }
+      }
+    }
+  }
+}

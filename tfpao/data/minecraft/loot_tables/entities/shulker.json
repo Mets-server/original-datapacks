@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:entity",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:elytra",
+                "conditions": [{
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.0142857143
+                }]
+            }]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:shulker_shell",
+                    "functions": [{
+                        "function": "minecraft:set_lore",
+                        "lore": [{
+                            "text": "真のシティ探索家の印",
+                            "color": "888888",
+                            "italic": false,
+                            "underlined": true
+                        }]
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 99,
+                    "name": "minecraft:shulker_shell"
+                }
+            ],
+            "conditions": [{
+                "condition": "minecraft:random_chance_with_looting",
+                "chance": 0.5,
+                "looting_multiplier": 0.0625
+            }]
+        }
+    ]
+}

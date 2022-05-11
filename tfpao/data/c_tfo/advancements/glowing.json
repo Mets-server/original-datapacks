@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:\"TAKE5595\"}"
+        },
+        "title": "圧倒的存在感",
+        "description": "光る。体が..神々しいといえば？",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "c_tfo:exist",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:glowing": {}
+                }
+            }
+        }
+    }
+}

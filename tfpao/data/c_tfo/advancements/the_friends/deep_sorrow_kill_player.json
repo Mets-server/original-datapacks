@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ghast_tear"
+    },
+    "title": "深い悲しみ",
+    "description": "見つめあったままプレイヤーを殺害する。",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "c_tfo:the_friends/kill_the_player",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "targeted_entity": {
+            "type": "minecraft:player"
+          }
+        },
+        "entity": {
+          "type": "minecraft:player",
+          "targeted_entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    }
+  }
+}

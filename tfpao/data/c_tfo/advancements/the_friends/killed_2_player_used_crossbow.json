@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crossbow",
+      "nbt": "{Enchantments:[{lvl:1}]}"
+    },
+    "title": "貫通した..",
+    "description": "クロスボウで２人同時に射貫く",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "c_tfo:the_friends/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "unique_entity_types": 2,
+        "victims": [
+          {
+            "type": "minecraft:player"
+          }
+        ]
+      }
+    }
+  }
+}

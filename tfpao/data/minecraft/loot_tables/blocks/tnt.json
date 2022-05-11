@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:block",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:gunpowder",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": 5
+                }]
+            }]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:sand",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": 4
+                }]
+            }]
+        }
+    ]
+}

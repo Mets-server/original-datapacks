@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_hoe",
+            "nbt": "{Enchantments:[{lvl:1}]}"
+        },
+        "title": "農民いじり",
+        "description": "幸運3フルエンチャのネザライトのクワをプレイヤーにプレゼントする",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "c_tfo:the_friends/diamond_to_player",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:player"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:netherite_hoe"
+                    ],
+                    "enchantments": [{
+                            "enchantment": "minecraft:mending",
+                            "levels": 1
+                        },
+                        {
+                            "enchantment": "minecraft:efficiency",
+                            "levels": 5
+                        },
+                        {
+                            "enchantment": "minecraft:unbreaking",
+                            "levels": 3
+                        },
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "levels": 3
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
